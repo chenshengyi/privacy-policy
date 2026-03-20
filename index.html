@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>习惯打卡 - 隐私政策</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 15px; line-height: 1.8; color: #333;
+      max-width: 800px; margin: 0 auto; padding: 24px 20px;
+      background: #f9f9f9;
+    }
+    .container { background: #fff; border-radius: 12px; padding: 32px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+    h1 { font-size: 24px; color: #6C63FF; margin-bottom: 8px; }
+    .subtitle { color: #888; font-size: 13px; margin-bottom: 28px; }
+    h2 { font-size: 17px; color: #2D3436; margin: 24px 0 10px; padding-left: 10px; border-left: 4px solid #6C63FF; }
+    p { margin-bottom: 12px; color: #444; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; color: #444; }
+    .highlight { background: #F0EDFF; border-radius: 8px; padding: 14px 16px; margin: 16px 0; }
+    .highlight p { margin: 0; color: #6C63FF; font-weight: 500; }
+    .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; color: #999; font-size: 13px; text-align: center; }
+    a { color: #6C63FF; text-decoration: none; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    th, td { border: 1px solid #e0e0e0; padding: 10px 14px; text-align: left; font-size: 14px; }
+    th { background: #f5f3ff; color: #6C63FF; font-weight: 600; }
+    tr:nth-child(even) { background: #fafafa; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📱 习惯打卡 隐私政策</h1>
+    <p class="subtitle">最后更新时间：2026年3月20日 &nbsp;|&nbsp; 版本：1.0.0</p>
+
+    <div class="highlight">
+      <p>🔒 核心承诺：「习惯打卡」所有数据仅存储在您的设备本地，我们不收集、不上传、不分析您的任何个人信息。</p>
+    </div>
+
+    <h2>一、我们收集哪些信息</h2>
+    <p>「习惯打卡」是一款完全本地化的应用，<strong>不收集任何个人信息</strong>。具体说明如下：</p>
+    <table>
+      <tr><th>数据类型</th><th>是否收集</th><th>说明</th></tr>
+      <tr><td>姓名、手机号、邮箱</td><td>❌ 不收集</td><td>无需注册或登录账号</td></tr>
+      <tr><td>位置信息</td><td>❌ 不收集</td><td>应用不请求位置权限</td></tr>
+      <tr><td>习惯数据</td><td>✅ 本地存储</td><td>仅保存在您的设备上，不上传云端</td></tr>
+      <tr><td>设备标识符</td><td>❌ 不收集</td><td>不读取设备 IMEI 或广告 ID</td></tr>
+      <tr><td>使用行为数据</td><td>❌ 不收集</td><td>不进行任何行为追踪或分析</td></tr>
+    </table>
+
+    <h2>二、我们如何使用您的信息</h2>
+    <p>由于我们不收集您的个人信息，因此不存在对您数据的任何使用行为。</p>
+    <p>您在应用内创建的习惯、打卡记录、备注等数据：</p>
+    <ul>
+      <li>仅存储在您设备的本地存储（AsyncStorage）中</li>
+      <li>不会上传至任何服务器或云端</li>
+      <li>不会与任何第三方共享</li>
+      <li>您可以随时在「设置 → 清除所有数据」中删除全部数据</li>
+    </ul>
+
+    <h2>三、权限说明</h2>
+    <p>应用仅申请以下必要权限：</p>
+    <table>
+      <tr><th>权限名称</th><th>用途</th></tr>
+      <tr><td>发送通知（POST_NOTIFICATIONS）</td><td>用于习惯提醒、成就通知、每周总结推送，您可随时在系统设置中关闭</td></tr>
+      <tr><td>精确闹钟（SCHEDULE_EXACT_ALARM）</td><td>用于在指定时间准时发送习惯提醒通知</td></tr>
+    </table>
+    <p>我们不申请以下权限：摄像头、麦克风、联系人、短信、位置、存储读写等。</p>
+
+    <h2>四、第三方 SDK</h2>
+    <p>应用使用以下开源框架，均不收集用户数据：</p>
+    <ul>
+      <li><strong>React Native</strong>（Facebook/Meta）- 跨平台应用框架</li>
+      <li><strong>Expo</strong> - React Native 工具链</li>
+      <li><strong>AsyncStorage</strong> - 本地数据存储，数据不离开设备</li>
+      <li><strong>expo-notifications</strong> - 本地通知，不连接外部推送服务器</li>
+    </ul>
+
+    <h2>五、数据安全</h2>
+    <p>由于所有数据均存储在您的设备本地，数据安全完全由您的设备安全保障（屏幕锁定、设备加密等）来提供。我们建议您：</p>
+    <ul>
+      <li>为手机设置安全的解锁密码</li>
+      <li>定期备份重要数据</li>
+      <li>不在公共设备上使用本应用</li>
+    </ul>
+
+    <h2>六、未成年人隐私</h2>
+    <p>本应用不面向 14 周岁以下的未成年人。若您未满 14 周岁，请在监护人的指导下使用本应用。</p>
+
+    <h2>七、本政策的更新</h2>
+    <p>我们可能会不时更新本隐私政策。当政策发生重大变更时，我们会在应用内通过弹窗或通知告知您，并在本页面更新修订日期。建议您定期查阅本政策。</p>
+
+    <h2>八、联系我们</h2>
+    <p>如果您对本隐私政策有任何疑问、意见或建议，欢迎通过以下方式联系我们：</p>
+    <ul>
+      <li>邮箱：<a href="mailto:2573088226@qq.com">2573088226@qq.com</a></li>
+    </ul>
+    <p>我们将在收到您的反馈后 7 个工作日内予以回复。</p>
+
+    <h2>九、法律适用</h2>
+    <p>本隐私政策适用中华人民共和国法律，并依据《个人信息保护法》《网络安全法》等相关法律法规制定。</p>
+
+    <div class="footer">
+      <p>习惯打卡 · 版本 1.0.0 · © 2026 All Rights Reserved</p>
+    </div>
+  </div>
+</body>
+</html>
